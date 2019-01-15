@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.corda:corda-webserver:3.3-corda">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver/3.3-corda/676d262432ac6c4e59cb139fd104221b967522b9/corda-webserver-3.3-corda.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver/3.3-corda/7a90226b1052d869cca908d4013d48b790efd6f1/corda-webserver-3.3-corda-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

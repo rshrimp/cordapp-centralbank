@@ -1,0 +1,490 @@
+[INFO ] 2019-01-13T18:45:49,950Z [driver-pool-thread-0] config.ConfigHelper.loadConfig - Config:
+{
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 20
+    "activeMQServer" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 21
+        "bridge" : {
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 24
+            "maxRetryIntervalMin" : 3,
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 22
+            "retryIntervalMs" : 5000,
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 23
+            "retryIntervalMultiplier" : 1.5
+        }
+    },
+    # hardcoded value
+    "baseDirectory" : "/Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/NotaryService",
+    # merge of reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda/3.3-corda/c634cc8e8d8d4440532a3da10d09ca080486319b/corda-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver/3.3-corda/676d262432ac6c4e59cb139fd104221b967522b9/corda-webserver-3.3-corda.jar!/reference.conf: 6
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 10
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,hardcoded value,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+        "dataSource.url" : "jdbc:h2:file:/Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/NotaryService/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=100;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 9
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 7
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 12
+    "database" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 14
+        "exportHibernateJMXStatistics" : "false",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 13
+        "transactionIsolationLevel" : "REPEATABLE_READ"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 16
+    "devMode" : true,
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 2
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 3
+    "exportJMXto" : "http",
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 31
+    "flowTimeout" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 34
+        "backoffBase" : 1.8,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 33
+        "maxRestartCount" : 5,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 32
+        "timeout" : "30 seconds"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+    "h2port" : 0,
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 4
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "O=Notary Service, L=Zurich, C=CH",
+    # hardcoded value
+    "notary" : {
+        # hardcoded value
+        "custom" : false,
+        # hardcoded value
+        "validating" : true
+    },
+    # hardcoded value
+    "p2pAddress" : "localhost:10002",
+    # merge of hardcoded value,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 27
+    "rpcSettings" : {
+        # hardcoded value
+        "address" : "localhost:10003",
+        # hardcoded value
+        "adminAddress" : "localhost:10004",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 29
+        "standAloneBroker" : false,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 28
+        "useSsl" : false
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "default",
+            # hardcoded value
+            "permissions" : [
+                # hardcoded value
+                "ALL"
+            ],
+            # hardcoded value
+            "username" : "default"
+        }
+    ],
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 5
+    "trustStorePassword" : "trustpass",
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "verifierType" : "InMemory",
+    # hardcoded value
+    "webAddress" : "localhost:10005"
+}
+ {}
+[INFO ] 2019-01-13T18:45:50,609Z [driver-pool-thread-0] network.NodeInfoFilesCopier.addConfig - Now watching: /Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/NotaryService {}
+[INFO ] 2019-01-13T18:45:50,647Z [driver-pool-thread-0] config.ConfigHelper.loadConfig - Config:
+{
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 20
+    "activeMQServer" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 21
+        "bridge" : {
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 24
+            "maxRetryIntervalMin" : 3,
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 22
+            "retryIntervalMs" : 5000,
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 23
+            "retryIntervalMultiplier" : 1.5
+        }
+    },
+    # hardcoded value
+    "baseDirectory" : "/Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankB",
+    # merge of reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda/3.3-corda/c634cc8e8d8d4440532a3da10d09ca080486319b/corda-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver/3.3-corda/676d262432ac6c4e59cb139fd104221b967522b9/corda-webserver-3.3-corda.jar!/reference.conf: 6
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 10
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,hardcoded value,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+        "dataSource.url" : "jdbc:h2:file:/Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankB/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=100;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 9
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 7
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 12
+    "database" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 14
+        "exportHibernateJMXStatistics" : "false",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 13
+        "transactionIsolationLevel" : "REPEATABLE_READ"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 16
+    "devMode" : true,
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 2
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 3
+    "exportJMXto" : "http",
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 31
+    "flowTimeout" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 34
+        "backoffBase" : 1.8,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 33
+        "maxRestartCount" : 5,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 32
+        "timeout" : "30 seconds"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+    "h2port" : 0,
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 4
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "O=BankB, L=, C=US",
+    # hardcoded value
+    "p2pAddress" : "localhost:10001",
+    # merge of hardcoded value,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 27
+    "rpcSettings" : {
+        # hardcoded value
+        "address" : "localhost:10006",
+        # hardcoded value
+        "adminAddress" : "localhost:10007",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 29
+        "standAloneBroker" : false,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 28
+        "useSsl" : false
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "default",
+            # hardcoded value
+            "permissions" : [
+                # hardcoded value
+                "ALL"
+            ],
+            # hardcoded value
+            "username" : "default"
+        }
+    ],
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 5
+    "trustStorePassword" : "trustpass",
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "verifierType" : "InMemory",
+    # hardcoded value
+    "webAddress" : "localhost:10008"
+}
+ {}
+[INFO ] 2019-01-13T18:45:50,626Z [driver-pool-thread-1] internal.DriverDSLImpl.invoke - Starting in-process Node Notary Service {}
+[INFO ] 2019-01-13T18:45:50,669Z [driver-pool-thread-0] network.NodeInfoFilesCopier.addConfig - Now watching: /Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankB {}
+[INFO ] 2019-01-13T18:45:50,690Z [driver-pool-thread-0] config.ConfigHelper.loadConfig - Config:
+{
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 20
+    "activeMQServer" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 21
+        "bridge" : {
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 24
+            "maxRetryIntervalMin" : 3,
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 22
+            "retryIntervalMs" : 5000,
+            # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 23
+            "retryIntervalMultiplier" : 1.5
+        }
+    },
+    # hardcoded value
+    "baseDirectory" : "/Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankA",
+    # merge of reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda/3.3-corda/c634cc8e8d8d4440532a3da10d09ca080486319b/corda-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver/3.3-corda/676d262432ac6c4e59cb139fd104221b967522b9/corda-webserver-3.3-corda.jar!/reference.conf: 6
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 10
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,hardcoded value,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+        "dataSource.url" : "jdbc:h2:file:/Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankA/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=100;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 9
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 7
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 12
+    "database" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 14
+        "exportHibernateJMXStatistics" : "false",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 13
+        "transactionIsolationLevel" : "REPEATABLE_READ"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 16
+    "devMode" : true,
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 2
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 3
+    "exportJMXto" : "http",
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 31
+    "flowTimeout" : {
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 34
+        "backoffBase" : 1.8,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 33
+        "maxRestartCount" : 5,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 32
+        "timeout" : "30 seconds"
+    },
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+    "h2port" : 0,
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 4
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "O=BankA, L=, C=GB",
+    # hardcoded value
+    "p2pAddress" : "localhost:10000",
+    # merge of hardcoded value,reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 27
+    "rpcSettings" : {
+        # hardcoded value
+        "address" : "localhost:10009",
+        # hardcoded value
+        "adminAddress" : "localhost:10010",
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 29
+        "standAloneBroker" : false,
+        # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 28
+        "useSsl" : false
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "default",
+            # hardcoded value
+            "permissions" : [
+                # hardcoded value
+                "ALL"
+            ],
+            # hardcoded value
+            "username" : "default"
+        }
+    ],
+    # reference.conf @ jar:file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 5
+    "trustStorePassword" : "trustpass",
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "verifierType" : "InMemory",
+    # hardcoded value
+    "webAddress" : "localhost:10011"
+}
+ {}
+[INFO ] 2019-01-13T18:45:50,714Z [driver-pool-thread-0] network.NodeInfoFilesCopier.addConfig - Now watching: /Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankA {}
+[INFO ] 2019-01-13T18:45:50,726Z [driver-pool-thread-0] internal.DriverDSLImpl.invoke - Starting in-process Node BankB {}
+[INFO ] 2019-01-13T18:45:50,907Z [driver-pool-thread-1] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/integrationTest/classes/com/bank: /Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-842ae8a2-ab50-440f-b510-c972a1e3f2e2.jar {}
+[INFO ] 2019-01-13T18:45:50,959Z [driver-pool-thread-1] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp-contracts-states/out/production/classes/com/bank: build/tmp/generated-test-cordapps/com.bank-d4eaec28-aad6-46c9-a275-ab49ba786156.jar {}
+[INFO ] 2019-01-13T18:45:50,984Z [driver-pool-thread-1] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/production/classes/com/bank: build/tmp/generated-test-cordapps/com.bank-15beac90-351f-441d-8aa2-ba2d05092339.jar {}
+[INFO ] 2019-01-13T18:45:51,014Z [driver-pool-thread-1] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/test/classes/com/bank: build/tmp/generated-test-cordapps/com.bank-c7c6d423-5fe8-4ada-87df-a6ced649fabf.jar {}
+[INFO ] 2019-01-13T18:45:51,068Z [driver-pool-thread-1] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-842ae8a2-ab50-440f-b510-c972a1e3f2e2.jar, rootPackageName=null), RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-d4eaec28-aad6-46c9-a275-ab49ba786156.jar, rootPackageName=null), RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-15beac90-351f-441d-8aa2-ba2d05092339.jar, rootPackageName=null), RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-c7c6d423-5fe8-4ada-87df-a6ced649fabf.jar, rootPackageName=null) {}
+[INFO ] 2019-01-13T18:45:51,139Z [driver-pool-thread-0] internal.Node.start - Node starting up ... {}
+[INFO ] 2019-01-13T18:45:51,139Z [driver-pool-thread-1] internal.Node.start - Node starting up ... {}
+[WARN ] 2019-01-13T18:45:51,148Z [driver-pool-thread-0] internal.Node.initCertificate - Corda node is running in dev mode. {}
+[WARN ] 2019-01-13T18:45:51,149Z [driver-pool-thread-1] internal.Node.initCertificate - Corda node is running in dev mode. {}
+[INFO ] 2019-01-13T18:45:51,167Z [driver-pool-thread-1] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-842ae8a2-ab50-440f-b510-c972a1e3f2e2.jar {}
+[INFO ] 2019-01-13T18:45:51,210Z [driver-pool-thread-1] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-d4eaec28-aad6-46c9-a275-ab49ba786156.jar {}
+[INFO ] 2019-01-13T18:45:51,242Z [driver-pool-thread-1] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-15beac90-351f-441d-8aa2-ba2d05092339.jar {}
+[INFO ] 2019-01-13T18:45:51,293Z [driver-pool-thread-1] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-c7c6d423-5fe8-4ada-87df-a6ced649fabf.jar {}
+[INFO ] 2019-01-13T18:45:51,352Z [driver-pool-thread-0] internal.Node.obtainIdentity - identity-private-key not found in key store /Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankB/certificates/nodekeystore.jks, generating fresh key! {}
+[INFO ] 2019-01-13T18:45:51,529Z [driver-pool-thread-0] internal.NetworkParametersReader.retrieveNetworkParameters - Loaded network parameters: net.corda.core.internal.SignedDataWithCert@37f62a0c {}
+[INFO ] 2019-01-13T18:45:51,529Z [driver-pool-thread-1] internal.NetworkParametersReader.retrieveNetworkParameters - Loaded network parameters: net.corda.core.internal.SignedDataWithCert@534ff034 {}
+[INFO ] 2019-01-13T18:45:52,500Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - Database connection url is              : jdbc:h2:tcp://192.168.1.30:55700/node {}
+[INFO ] 2019-01-13T18:45:52,500Z [driver-pool-thread-0] BasicInfo.printBasicNodeInfo - Database connection url is              : jdbc:h2:tcp://192.168.1.30:55699/node {}
+[INFO ] 2019-01-13T18:45:53,084Z [driver-pool-thread-0] internal.Node.invoke - Connected to H2 database. {}
+[INFO ] 2019-01-13T18:45:53,084Z [driver-pool-thread-1] internal.Node.invoke - Connected to H2 database. {}
+[INFO ] 2019-01-13T18:45:53,142Z [driver-pool-thread-1] persistence.HibernateConfiguration.<init> - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotaryV1(name=net.corda.node.services.schema.NodeSchemaService$NodeNotary, version=1)] {}
+[INFO ] 2019-01-13T18:45:53,142Z [driver-pool-thread-0] persistence.HibernateConfiguration.<init> - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2019-01-13T18:45:53,151Z [driver-pool-thread-0] persistence.HibernateConfiguration.makeSessionFactoryForSchemas - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2019-01-13T18:45:53,151Z [driver-pool-thread-1] persistence.HibernateConfiguration.makeSessionFactoryForSchemas - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotaryV1(name=net.corda.node.services.schema.NodeSchemaService$NodeNotary, version=1)] {}
+[INFO ] 2019-01-13T18:45:57,379Z [driver-pool-thread-0] persistence.HibernateConfiguration.makeSessionFactoryForSchemas - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2019-01-13T18:45:57,379Z [driver-pool-thread-1] persistence.HibernateConfiguration.makeSessionFactoryForSchemas - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotaryV1(name=net.corda.node.services.schema.NodeSchemaService$NodeNotary, version=1)] {}
+[INFO ] 2019-01-13T18:45:59,425Z [driver-pool-thread-1] internal.Node.updateNodeInfo - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2019-01-13T18:45:59,425Z [driver-pool-thread-0] internal.Node.updateNodeInfo - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2019-01-13T18:45:59,429Z [driver-pool-thread-0] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:45:59,429Z [driver-pool-thread-1] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:45:59,448Z [driver-pool-thread-1] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:45:59,449Z [driver-pool-thread-0] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:45:59,659Z [driver-pool-thread-0] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:45:59,659Z [driver-pool-thread-1] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:45:59,662Z [driver-pool-thread-0] internal.Node.updateNodeInfo - New node-info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:45:59,663Z [driver-pool-thread-1] internal.Node.updateNodeInfo - New node-info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:00,014Z [driver-pool-thread-1] persistence.NodeAttachmentService.invoke - Stored new attachment 6FDD936D608607D91178AD3A3AE9181DB58132CBA7B621F881B8F653D473C62E {}
+[INFO ] 2019-01-13T18:46:00,014Z [driver-pool-thread-0] persistence.NodeAttachmentService.invoke - Stored new attachment 6FDD936D608607D91178AD3A3AE9181DB58132CBA7B621F881B8F653D473C62E {}
+[WARN ] 2019-01-13T18:46:00,027Z [driver-pool-thread-1] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-13T18:46:00,027Z [driver-pool-thread-0] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T18:46:00,118Z [driver-pool-thread-1] security.RPCSecurityManagerImpl.buildImpl - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2019-01-13T18:46:00,118Z [driver-pool-thread-0] security.RPCSecurityManagerImpl.buildImpl - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2019-01-13T18:46:00,573Z [driver-pool-thread-0] BasicInfo.printBasicNodeInfo - Advertised P2P messaging addresses      : localhost:10001 {}
+[INFO ] 2019-01-13T18:46:00,573Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - Advertised P2P messaging addresses      : localhost:10002 {}
+[INFO ] 2019-01-13T18:46:00,578Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - RPC connection address                  : localhost:10003 {}
+[INFO ] 2019-01-13T18:46:00,578Z [driver-pool-thread-0] BasicInfo.printBasicNodeInfo - RPC connection address                  : localhost:10006 {}
+[INFO ] 2019-01-13T18:46:00,579Z [driver-pool-thread-0] BasicInfo.printBasicNodeInfo - RPC admin connection address            : localhost:10007 {}
+[INFO ] 2019-01-13T18:46:00,579Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - RPC admin connection address            : localhost:10004 {}
+[INFO ] 2019-01-13T18:46:00,703Z [driver-pool-thread-1] internal.Node.makeNotaryService - Running core notary: net.corda.node.services.transactions.ValidatingNotaryService {}
+[INFO ] 2019-01-13T18:46:02,820Z [driver-pool-thread-0] messaging.ArtemisMessagingServer.configureAndStartServer - P2P messaging server listening on port 10001 {}
+[INFO ] 2019-01-13T18:46:02,820Z [driver-pool-thread-1] messaging.ArtemisMessagingServer.configureAndStartServer - P2P messaging server listening on port 10002 {}
+[INFO ] 2019-01-13T18:46:03,593Z [driver-pool-thread-1] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10002 {}
+[INFO ] 2019-01-13T18:46:03,593Z [driver-pool-thread-0] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10001 {}
+[INFO ] 2019-01-13T18:46:04,701Z [driver-pool-thread-0] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10001 {}
+[INFO ] 2019-01-13T18:46:04,701Z [driver-pool-thread-1] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10002 {}
+[INFO ] 2019-01-13T18:46:04,845Z [driver-pool-thread-1] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10004 {}
+[INFO ] 2019-01-13T18:46:04,845Z [driver-pool-thread-0] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10007 {}
+[INFO ] 2019-01-13T18:46:04,939Z [driver-pool-thread-0] messaging.P2PMessagingClient.start - Connecting to message broker: localhost:10001 {}
+[INFO ] 2019-01-13T18:46:04,939Z [driver-pool-thread-1] messaging.P2PMessagingClient.start - Connecting to message broker: localhost:10002 {}
+[INFO ] 2019-01-13T18:46:05,001Z [driver-pool-thread-0] messaging.P2PMessagingClient.createQueueIfAbsent - Create fresh queue p2p.inbound.DL3QrqKWL29UNQB9HJWL6aLiq27m8QAuh73igAgAX1NnzS bound on same address {}
+[INFO ] 2019-01-13T18:46:05,001Z [driver-pool-thread-1] messaging.P2PMessagingClient.createQueueIfAbsent - Create fresh queue p2p.inbound.DL4zb1rQ9D5ojEmG6woKkTjWA71aqsWXLvpH1ZA9audZgS bound on same address {}
+[INFO ] 2019-01-13T18:46:05,111Z [Thread-0 (ActiveMQ-client-factory-threads-1025517929)] bridging.BridgeControlListener.processControlMessage - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=DL3QrqKWL29UNQB9HJWL6aLiq27m8QAuh73igAgAX1NnzS, inboxQueues=[p2p.inbound.DL3QrqKWL29UNQB9HJWL6aLiq27m8QAuh73igAgAX1NnzS], sendQueues=[]) {}
+[INFO ] 2019-01-13T18:46:05,111Z [Thread-0 (ActiveMQ-client-factory-threads-456752065)] bridging.BridgeControlListener.processControlMessage - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=DL4zb1rQ9D5ojEmG6woKkTjWA71aqsWXLvpH1ZA9audZgS, inboxQueues=[p2p.inbound.DL4zb1rQ9D5ojEmG6woKkTjWA71aqsWXLvpH1ZA9audZgS], sendQueues=[]) {}
+[INFO ] 2019-01-13T18:46:05,148Z [driver-pool-thread-0] internal.Node.registerInitiatedFlowInternal - Registered com.bank.MyCashFlows$TransferMyCash to initiate com.bank.MyCashFlows$NewCashOwnerAcceptor (version 1) {}
+[INFO ] 2019-01-13T18:46:05,148Z [driver-pool-thread-1] internal.Node.registerInitiatedFlowInternal - Registered com.bank.MyCashFlows$TransferMyCash to initiate com.bank.MyCashFlows$NewCashOwnerAcceptor (version 1) {}
+[INFO ] 2019-01-13T18:46:05,152Z [driver-pool-thread-1] internal.Node.registerInitiatedFlowInternal - Registered com.bank.Initiator to initiate com.bank.Responder (version 1) {}
+[INFO ] 2019-01-13T18:46:05,152Z [driver-pool-thread-0] internal.Node.registerInitiatedFlowInternal - Registered com.bank.Initiator to initiate com.bank.Responder (version 1) {}
+[WARN ] 2019-01-13T18:46:08,007Z [driver-pool-thread-0] utilities.AppendOnlyPersistentMapBase.set - Double insert in net.corda.node.utilities.AppendOnlyPersistentMap for entity class class net.corda.node.services.identity.PersistentIdentityService$PersistentIdentity key 23D41433A23D06DB2230BADA3B8B0D1B662483B42A30403B7A1F93AEF7B02F1F, not inserting the second time {}
+[WARN ] 2019-01-13T18:46:08,007Z [driver-pool-thread-1] utilities.AppendOnlyPersistentMapBase.set - Double insert in net.corda.node.utilities.AppendOnlyPersistentMap for entity class class net.corda.node.services.identity.PersistentIdentityService$PersistentIdentity key 3B53A09EC841FD0E9D53EC042CF1855C152BDA435BBAF573A51F9D73C1EB046F, not inserting the second time {}
+[INFO ] 2019-01-13T18:46:08,013Z [driver-pool-thread-0] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,013Z [driver-pool-thread-1] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,175Z [driver-pool-thread-1] internal.DriverDSLImpl.invoke - Starting in-process Node BankA {}
+[INFO ] 2019-01-13T18:46:08,181Z [driver-pool-thread-1] internal.Node.start - Node starting up ... {}
+[WARN ] 2019-01-13T18:46:08,185Z [driver-pool-thread-1] internal.Node.initCertificate - Corda node is running in dev mode. {}
+[INFO ] 2019-01-13T18:46:08,107Z [InProcessNode-1-2] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,107Z [InProcessNode-2-2] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,118Z [BankB] messaging.RPCServer.start - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2019-01-13T18:46:08,117Z [Notary Service] messaging.RPCServer.start - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2019-01-13T18:46:08,201Z [InProcessNode-1-2] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:08,204Z [InProcessNode-2-2] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:08,273Z [InProcessNode-1-2] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,272Z [InProcessNode-2-2] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,275Z [driver-pool-thread-1] internal.Node.obtainIdentity - identity-private-key not found in key store /Users/raj/corda/cordapp-centralbank/build/20190113-184532.308/BankA/certificates/nodekeystore.jks, generating fresh key! {}
+[INFO ] 2019-01-13T18:46:08,290Z [InProcessNode-1-2] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,291Z [InProcessNode-2-2] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:08,676Z [driver-pool-thread-1] internal.NetworkParametersReader.retrieveNetworkParameters - Loaded network parameters: net.corda.core.internal.SignedDataWithCert@7b13f9fd {}
+[INFO ] 2019-01-13T18:46:08,707Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - Database connection url is              : jdbc:h2:tcp://192.168.1.30:55748/node {}
+[INFO ] 2019-01-13T18:46:08,747Z [driver-pool-thread-1] internal.Node.invoke - Connected to H2 database. {}
+[INFO ] 2019-01-13T18:46:08,754Z [driver-pool-thread-1] persistence.HibernateConfiguration.<init> - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2019-01-13T18:46:08,761Z [driver-pool-thread-1] persistence.HibernateConfiguration.makeSessionFactoryForSchemas - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2019-01-13T18:46:08,990Z [driver-pool-thread-1] persistence.HibernateConfiguration.makeSessionFactoryForSchemas - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2019-01-13T18:46:09,348Z [Thread-0 (ActiveMQ-client-factory-threads-51732462)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=9510b0bd-0c40-456d-8fb7-ac2c9429f0ec, invocation_timestamp=2019-01-13T18:46:09.336Z, session_id=c476bb2a-ecf2-48f0-80ad-f825368313db, session_timestamp=2019-01-13T18:46:08.267Z}
+[INFO ] 2019-01-13T18:46:09,492Z [driver-pool-thread-0] internal.RPCClient.logElapsedTime - Startup took 1225 msec {}
+[INFO ] 2019-01-13T18:46:09,504Z [Thread-0 (ActiveMQ-client-factory-threads-51732462)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=8818a6f5-194d-4c20-a1fe-6ebd01c48dba, invocation_timestamp=2019-01-13T18:46:09.504Z, session_id=c476bb2a-ecf2-48f0-80ad-f825368313db, session_timestamp=2019-01-13T18:46:08.267Z}
+[INFO ] 2019-01-13T18:46:09,628Z [Thread-0 (ActiveMQ-client-factory-threads-51732462)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=187b3e84-31bf-4e80-ae68-d96490de8394, invocation_timestamp=2019-01-13T18:46:09.628Z, session_id=c476bb2a-ecf2-48f0-80ad-f825368313db, session_timestamp=2019-01-13T18:46:08.267Z}
+[INFO ] 2019-01-13T18:46:09,679Z [Thread-0 (ActiveMQ-client-factory-threads-51732462)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=a14805fc-0c46-40e3-b589-91f7125320d7, invocation_timestamp=2019-01-13T18:46:09.679Z, session_id=c476bb2a-ecf2-48f0-80ad-f825368313db, session_timestamp=2019-01-13T18:46:08.267Z}
+[INFO ] 2019-01-13T18:46:09,725Z [Thread-0 (ActiveMQ-client-factory-threads-1853839984)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=215671da-cfb0-41ba-820a-22eb1f9c4c33, invocation_timestamp=2019-01-13T18:46:09.725Z, session_id=a2a213c0-7846-404a-b8ec-68a3956c810a, session_timestamp=2019-01-13T18:46:09.691Z}
+[INFO ] 2019-01-13T18:46:09,763Z [driver-pool-thread-0] internal.RPCClient.logElapsedTime - Startup took 72 msec {}
+[INFO ] 2019-01-13T18:46:09,773Z [Thread-0 (ActiveMQ-client-factory-threads-1853839984)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=9da1f87c-1a96-441a-94b0-af454f50c779, invocation_timestamp=2019-01-13T18:46:09.773Z, session_id=a2a213c0-7846-404a-b8ec-68a3956c810a, session_timestamp=2019-01-13T18:46:09.691Z}
+[INFO ] 2019-01-13T18:46:09,801Z [Thread-0 (ActiveMQ-client-factory-threads-1853839984)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=b3db0c9f-b7bc-4127-90c0-86cb5fe64f03, invocation_timestamp=2019-01-13T18:46:09.801Z, session_id=a2a213c0-7846-404a-b8ec-68a3956c810a, session_timestamp=2019-01-13T18:46:09.691Z}
+[INFO ] 2019-01-13T18:46:09,817Z [Thread-0 (ActiveMQ-client-factory-threads-1853839984)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=fd1ffcb0-6fb5-427a-b3a9-6e1315b8ab40, invocation_timestamp=2019-01-13T18:46:09.816Z, session_id=a2a213c0-7846-404a-b8ec-68a3956c810a, session_timestamp=2019-01-13T18:46:09.691Z}
+[INFO ] 2019-01-13T18:46:10,011Z [driver-pool-thread-1] internal.Node.updateNodeInfo - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2019-01-13T18:46:10,013Z [driver-pool-thread-1] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:10,020Z [driver-pool-thread-1] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:10,028Z [driver-pool-thread-1] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:10,030Z [driver-pool-thread-1] internal.Node.updateNodeInfo - New node-info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:10,111Z [driver-pool-thread-1] persistence.NodeAttachmentService.invoke - Stored new attachment 6FDD936D608607D91178AD3A3AE9181DB58132CBA7B621F881B8F653D473C62E {}
+[WARN ] 2019-01-13T18:46:10,113Z [driver-pool-thread-1] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T18:46:10,122Z [driver-pool-thread-1] security.RPCSecurityManagerImpl.buildImpl - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2019-01-13T18:46:10,127Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - Advertised P2P messaging addresses      : localhost:10000 {}
+[INFO ] 2019-01-13T18:46:10,127Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - RPC connection address                  : localhost:10009 {}
+[INFO ] 2019-01-13T18:46:10,127Z [driver-pool-thread-1] BasicInfo.printBasicNodeInfo - RPC admin connection address            : localhost:10010 {}
+[INFO ] 2019-01-13T18:46:10,473Z [driver-pool-thread-1] messaging.ArtemisMessagingServer.configureAndStartServer - P2P messaging server listening on port 10000 {}
+[INFO ] 2019-01-13T18:46:10,806Z [driver-pool-thread-1] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10000 {}
+[INFO ] 2019-01-13T18:46:10,868Z [driver-pool-thread-1] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10000 {}
+[INFO ] 2019-01-13T18:46:10,930Z [driver-pool-thread-1] internal.ArtemisMessagingClient.start - Connecting to message broker: localhost:10010 {}
+[INFO ] 2019-01-13T18:46:10,973Z [driver-pool-thread-1] messaging.P2PMessagingClient.start - Connecting to message broker: localhost:10000 {}
+[INFO ] 2019-01-13T18:46:11,017Z [driver-pool-thread-1] messaging.P2PMessagingClient.createQueueIfAbsent - Create fresh queue p2p.inbound.DL3CWomHhuybN6v2PwviEgWpZ2VJc76jvveetKZCzMWJSi bound on same address {}
+[INFO ] 2019-01-13T18:46:11,058Z [driver-pool-thread-1] internal.Node.registerInitiatedFlowInternal - Registered com.bank.MyCashFlows$TransferMyCash to initiate com.bank.MyCashFlows$NewCashOwnerAcceptor (version 1) {}
+[INFO ] 2019-01-13T18:46:11,063Z [driver-pool-thread-1] internal.Node.registerInitiatedFlowInternal - Registered com.bank.Initiator to initiate com.bank.Responder (version 1) {}
+[INFO ] 2019-01-13T18:46:11,064Z [Thread-0 (ActiveMQ-client-factory-threads-1060443721)] bridging.BridgeControlListener.processControlMessage - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=DL3CWomHhuybN6v2PwviEgWpZ2VJc76jvveetKZCzMWJSi, inboxQueues=[p2p.inbound.DL3CWomHhuybN6v2PwviEgWpZ2VJc76jvveetKZCzMWJSi], sendQueues=[]) {}
+[WARN ] 2019-01-13T18:46:11,181Z [driver-pool-thread-1] utilities.AppendOnlyPersistentMapBase.set - Double insert in net.corda.node.utilities.AppendOnlyPersistentMap for entity class class net.corda.node.services.identity.PersistentIdentityService$PersistentIdentity key 20AA76FDA8C33208FC2D33E8612B67E735E47A851236DDEFF5E859DB7E9F325F, not inserting the second time {}
+[INFO ] 2019-01-13T18:46:11,186Z [driver-pool-thread-1] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:11,201Z [BankA] messaging.RPCServer.start - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2019-01-13T18:46:11,228Z [InProcessNode-3-2] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:11,264Z [InProcessNode-3-2] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:11,305Z [InProcessNode-3-2] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:11,321Z [InProcessNode-3-2] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10001], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:11,326Z [InProcessNode-3-2] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:11,338Z [InProcessNode-3-2] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:11,332Z [Thread-0 (ActiveMQ-client-factory-threads-2110016216)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=ee6b5084-a5f9-4d9d-89b9-369b131cf4c0, invocation_timestamp=2019-01-13T18:46:11.332Z, session_id=c92f482e-50da-4348-8703-3c9f1da97534, session_timestamp=2019-01-13T18:46:11.202Z}
+[INFO ] 2019-01-13T18:46:11,356Z [InProcessNode-3-2] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:11,367Z [driver-pool-thread-0] internal.RPCClient.logElapsedTime - Startup took 166 msec {}
+[INFO ] 2019-01-13T18:46:11,367Z [InProcessNode-3-2] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=1, serial=1547405159429) {}
+[INFO ] 2019-01-13T18:46:11,380Z [Thread-0 (ActiveMQ-client-factory-threads-2110016216)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=789f715a-2d5b-4de8-b985-f72764fe74a4, invocation_timestamp=2019-01-13T18:46:11.380Z, session_id=c92f482e-50da-4348-8703-3c9f1da97534, session_timestamp=2019-01-13T18:46:11.202Z}
+[INFO ] 2019-01-13T18:46:11,412Z [Thread-0 (ActiveMQ-client-factory-threads-2110016216)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=a242d245-c68d-414d-9ad0-dd269c4baa88, invocation_timestamp=2019-01-13T18:46:11.412Z, session_id=c92f482e-50da-4348-8703-3c9f1da97534, session_timestamp=2019-01-13T18:46:11.202Z}
+[INFO ] 2019-01-13T18:46:18,080Z [InProcessNode-2-2] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:18,080Z [InProcessNode-1-2] network.PersistentNetworkMapCache.addNode - Adding node with info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:18,086Z [InProcessNode-2-2] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:18,086Z [InProcessNode-1-2] network.PersistentNetworkMapCache.addNode - No previous node found {}
+[INFO ] 2019-01-13T18:46:18,104Z [InProcessNode-2-2] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:18,105Z [InProcessNode-1-2] messaging.P2PMessagingClient.updateBridgesOnNetworkChange - Updating bridges on network map change: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:18,115Z [InProcessNode-2-2] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:18,116Z [InProcessNode-1-2] network.PersistentNetworkMapCache.addNode - Done adding node with info: NodeInfo(addresses=[localhost:10000], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=1, serial=1547405170013) {}
+[INFO ] 2019-01-13T18:46:18,145Z [Thread-0 (ActiveMQ-client-factory-threads-2110016216)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=e9023146-0180-47d0-abcc-612dfa433979, invocation_timestamp=2019-01-13T18:46:18.145Z, session_id=c92f482e-50da-4348-8703-3c9f1da97534, session_timestamp=2019-01-13T18:46:11.202Z}
+[INFO ] 2019-01-13T18:46:18,172Z [Thread-0 (ActiveMQ-client-factory-threads-2110016216)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=ce1d180b-1a07-4cae-a6ba-a895988706bf, invocation_timestamp=2019-01-13T18:46:18.172Z, session_id=c92f482e-50da-4348-8703-3c9f1da97534, session_timestamp=2019-01-13T18:46:11.202Z}
+[INFO ] 2019-01-13T18:46:18,190Z [Thread-0 (ActiveMQ-client-factory-threads-1853839984)] messaging.RPCServer.clientArtemisMessageHandler - SUBMITTING {actor_id=default, actor_owningIdentity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=1b79a1f3-3c05-456c-b9e8-7137eaca0a5b, invocation_timestamp=2019-01-13T18:46:18.190Z, session_id=a2a213c0-7846-404a-b8ec-68a3956c810a, session_timestamp=2019-01-13T18:46:09.691Z}
+[WARN ] 2019-01-13T18:46:18,285Z [Thread-0 (ActiveMQ-client-factory-threads-2110016216)] messaging.RPCServer.bindingRemovalArtemisMessageHandler - Detected RPC client disconnect on address rpc.client.default.2598939602107951718, scheduling for reaping {actor_id=default, actor_owningIdentity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=ce1d180b-1a07-4cae-a6ba-a895988706bf, invocation_timestamp=2019-01-13T18:46:18.172Z, session_id=c92f482e-50da-4348-8703-3c9f1da97534, session_timestamp=2019-01-13T18:46:11.202Z}
+[WARN ] 2019-01-13T18:46:18,309Z [Thread-0 (ActiveMQ-client-factory-threads-1853839984)] messaging.RPCServer.bindingRemovalArtemisMessageHandler - Detected RPC client disconnect on address rpc.client.default.3404301095286797105, scheduling for reaping {actor_id=default, actor_owningIdentity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=1b79a1f3-3c05-456c-b9e8-7137eaca0a5b, invocation_timestamp=2019-01-13T18:46:18.190Z, session_id=a2a213c0-7846-404a-b8ec-68a3956c810a, session_timestamp=2019-01-13T18:46:09.691Z}
+[INFO ] 2019-01-13T18:46:18,324Z [main] BasicInfo.printBasicNodeInfo - Shutting down ... {}
+[WARN ] 2019-01-13T18:46:18,326Z [Thread-0 (ActiveMQ-client-factory-threads-51732462)] messaging.RPCServer.bindingRemovalArtemisMessageHandler - Detected RPC client disconnect on address rpc.client.default.3050852043696301087, scheduling for reaping {actor_id=default, actor_owningIdentity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=a14805fc-0c46-40e3-b589-91f7125320d7, invocation_timestamp=2019-01-13T18:46:09.679Z, session_id=c476bb2a-ecf2-48f0-80ad-f825368313db, session_timestamp=2019-01-13T18:46:08.267Z}
+[INFO ] 2019-01-13T18:46:20,742Z [main] internal.Node.stop - Shutdown complete {}
+[INFO ] 2019-01-13T18:46:20,745Z [main] BasicInfo.printBasicNodeInfo - Shutting down ... {}
+[INFO ] 2019-01-13T18:46:23,072Z [main] internal.Node.stop - Shutdown complete {}
+[INFO ] 2019-01-13T18:46:23,073Z [main] BasicInfo.printBasicNodeInfo - Shutting down ... {}
+[INFO ] 2019-01-13T18:46:25,367Z [main] internal.Node.stop - Shutdown complete {}
+[INFO ] 2019-01-13T20:35:43,946Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar, rootPackageName=net.corda.testing.contracts) {}
+[INFO ] 2019-01-13T20:35:44,736Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar {}
+[WARN ] 2019-01-13T20:35:45,161Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T20:35:45,208Z [main] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank.contract in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/test/classes/com/bank/contract: build/tmp/generated-test-cordapps/com.bank.contract-25eacc39-9610-4cc7-89d6-fdbd278f0bc1.jar {}
+[INFO ] 2019-01-13T20:35:45,252Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank.contract-25eacc39-9610-4cc7-89d6-fdbd278f0bc1.jar, rootPackageName=null) {}
+[INFO ] 2019-01-13T20:35:45,259Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank.contract-25eacc39-9610-4cc7-89d6-fdbd278f0bc1.jar {}
+[WARN ] 2019-01-13T20:35:45,292Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T20:36:44,159Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar, rootPackageName=net.corda.testing.contracts) {}
+[INFO ] 2019-01-13T20:36:44,934Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar {}
+[WARN ] 2019-01-13T20:36:45,358Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T20:36:45,405Z [main] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank.contract in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/test/classes/com/bank/contract: build/tmp/generated-test-cordapps/com.bank.contract-7979af19-ed80-41f5-92c4-b4b373631f2e.jar {}
+[INFO ] 2019-01-13T20:36:45,452Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank.contract-7979af19-ed80-41f5-92c4-b4b373631f2e.jar, rootPackageName=null) {}
+[INFO ] 2019-01-13T20:36:45,458Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank.contract-7979af19-ed80-41f5-92c4-b4b373631f2e.jar {}
+[WARN ] 2019-01-13T20:36:45,489Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T20:39:00,523Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar, rootPackageName=net.corda.testing.contracts) {}
+[INFO ] 2019-01-13T20:39:01,353Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar {}
+[WARN ] 2019-01-13T20:39:01,767Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T20:39:01,814Z [main] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank.contract in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/test/classes/com/bank/contract: build/tmp/generated-test-cordapps/com.bank.contract-76ac31d2-c0c0-482e-91bb-4531cf7708ae.jar {}
+[INFO ] 2019-01-13T20:39:01,860Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank.contract-76ac31d2-c0c0-482e-91bb-4531cf7708ae.jar, rootPackageName=null) {}
+[INFO ] 2019-01-13T20:39:01,866Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank.contract-76ac31d2-c0c0-482e-91bb-4531cf7708ae.jar {}
+[WARN ] 2019-01-13T20:39:01,899Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T21:23:11,463Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar, rootPackageName=net.corda.testing.contracts) {}
+[INFO ] 2019-01-13T21:23:12,240Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar {}
+[WARN ] 2019-01-13T21:23:12,654Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-13T21:23:14,567Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-13T23:40:10,026Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar, rootPackageName=net.corda.testing.contracts) {}
+[INFO ] 2019-01-13T23:40:11,171Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar {}
+[WARN ] 2019-01-13T23:40:11,657Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-13T23:40:14,096Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[INFO ] 2019-01-14T01:28:41,880Z [main] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/test/classes/com/bank: build/tmp/generated-test-cordapps/com.bank-5c8def91-fdc1-4313-a2d9-59b6a325a44f.jar {}
+[INFO ] 2019-01-14T01:28:42,597Z [main] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp/out/production/classes/com/bank: build/tmp/generated-test-cordapps/com.bank-c0bb0925-1dfd-4b2c-86a1-db87a418cf09.jar {}
+[INFO ] 2019-01-14T01:28:42,633Z [main] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.bank in file:/Users/raj/corda/cordapp-centralbank/cordapp-contracts-states/out/production/classes/com/bank: build/tmp/generated-test-cordapps/com.bank-e9a063c4-1dfb-4ea5-a9bb-dee0b434529c.jar {}
+[INFO ] 2019-01-14T01:28:42,731Z [main] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-5c8def91-fdc1-4313-a2d9-59b6a325a44f.jar, rootPackageName=null), RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-c0bb0925-1dfd-4b2c-86a1-db87a418cf09.jar, rootPackageName=null), RestrictedURL(url=file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-e9a063c4-1dfb-4ea5-a9bb-dee0b434529c.jar, rootPackageName=null), RestrictedURL(url=file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar, rootPackageName=net.corda.testing.contracts) {}
+[INFO ] 2019-01-14T01:28:42,958Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-5c8def91-fdc1-4313-a2d9-59b6a325a44f.jar {}
+[INFO ] 2019-01-14T01:28:43,189Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-c0bb0925-1dfd-4b2c-86a1-db87a418cf09.jar {}
+[INFO ] 2019-01-14T01:28:43,256Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/corda/cordapp-centralbank/build/tmp/generated-test-cordapps/com.bank-e9a063c4-1dfb-4ea5-a9bb-dee0b434529c.jar {}
+[INFO ] 2019-01-14T01:28:43,284Z [main] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/Users/raj/.gradle/caches/modules-2/files-2.1/net.corda/corda-test-utils/3.3-corda/b31df4b5a56d07269f982fbb31200b7a04345d2d/corda-test-utils-3.3-corda.jar {}
+[WARN ] 2019-01-14T01:28:43,637Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-14T01:28:56,654Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-14T01:28:56,860Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-14T01:28:57,072Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-14T01:28:57,258Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 2019-01-14T01:28:57,424Z [main] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}

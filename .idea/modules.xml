@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clients/clients.iml" filepath="$PROJECT_DIR$/.idea/modules/clients/clients.iml" group="clients" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clients/clients_main.iml" filepath="$PROJECT_DIR$/.idea/modules/clients/clients_main.iml" group="clients" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clients/clients_test.iml" filepath="$PROJECT_DIR$/.idea/modules/clients/clients_test.iml" group="clients" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/cordapp.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/cordapp.iml" group="cordapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cordapp-centralbank.iml" filepath="$PROJECT_DIR$/.idea/cordapp-centralbank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp-centralbank_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp-centralbank_main.iml" group="cordapp-centralbank" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp-centralbank_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp-centralbank_test.iml" group="cordapp-centralbank" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp-contracts-states/cordapp-contracts-states.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp-contracts-states/cordapp-contracts-states.iml" group="cordapp-contracts-states" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp-contracts-states/cordapp-contracts-states_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp-contracts-states/cordapp-contracts-states_main.iml" group="cordapp-contracts-states" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp-contracts-states/cordapp-contracts-states_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp-contracts-states/cordapp-contracts-states_test.iml" group="cordapp-contracts-states" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/cordapp_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/cordapp_integrationTest.iml" group="cordapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/cordapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/cordapp_main.iml" group="cordapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/cordapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/cordapp_test.iml" group="cordapp" />
+    </modules>
+  </component>
+</project>
