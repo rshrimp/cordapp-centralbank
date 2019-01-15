@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="clients_main" target="1.8" />
+      <module name="clients_test" target="1.8" />
+      <module name="cordapp-centralbank_main" target="1.8" />
+      <module name="cordapp-centralbank_test" target="1.8" />
+      <module name="cordapp-contracts-states_main" target="1.8" />
+      <module name="cordapp-contracts-states_test" target="1.8" />
+      <module name="cordapp_integrationTest" target="1.8" />
+      <module name="cordapp_main" target="1.8" />
+      <module name="cordapp_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+  </component>
+</project>
